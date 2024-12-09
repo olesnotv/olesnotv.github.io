@@ -89,7 +89,7 @@ footer a {
 .blog-index {
     min-height: 300px;
     width: 90%;
-    margin: 200px auto;
+    margin: 100px auto;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
@@ -192,6 +192,21 @@ footer a {
 }
 
 /* RESPONSIVE */
+
+@media screen and (max-width: 1700px) {
+    .blog-index article {
+        height: 350px;
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .blog-index article {
+        height: 300px;
+        width: 300px;
+    }
+}
+
 @media screen and (max-width: 750px) {
     .title {
         width: 10vm;
