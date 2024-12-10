@@ -64,7 +64,7 @@ footer a {
     height: 100%;
     padding: 10px 0 0 0;
     text-align: center;
-    transition: 0.8s;
+    transition: 0.4s;
 }
 .menu a, .index-about a {
     color: black;
@@ -90,29 +90,30 @@ footer a {
     min-height: 300px;
     width: 90%;
     margin: 100px auto;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1 fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    place-items: center;
+    grid-template-areas:
+    "b1 b2 b3"
+    "b4 b5 b6"
+    "b7 b8 b9";
 }
 
 .blog-index article {
     margin: 10px;
+    display: grid;
     /* background: url(../img/bg.jpg) center/cover; */
     background: rgba(0, 0, 0, 0.125);
     width: 450px;
     height: 450px;
-    transition: 0.4s;
+    transition: 0.3s;
 }
 
 .blog-index p {
     height: 50px;
     width: 250px;
     padding-top: 15px;
-    display: grid;
-    grid-area: txt;
-    text-align: center;
-    color: black;
 }
 
 .index-about {
@@ -189,6 +190,10 @@ footer a {
 .index-about button:hover {
     box-shadow: 9px 7px 8px 1px #000000a8;
     cursor: pointer;
+}
+
+#post1 {
+    grid-area: b1;
 }
 
 /* RESPONSIVE */
