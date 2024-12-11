@@ -19,7 +19,7 @@ Notre équipe est composé de jeunes lycéens avec chacun notre force, et en tra
 - Bradvas-n : Manager.
 - CadetBobEponge : Community manager. Il s'occupe des nos réseaux et de la promotion de son contenu, c'est avec lui que nous comptons developper notre audience !
 - Aaronman710 : Beta testeur. Il nous permet de faire les tests dont on a besoin et nous rends plus productif.
-- Lenybarre : Celui qui a trouver le nom, il a pas de rôle, il sert a rien, mais on l'aime bien :)
+- Lenybarre : Celui qui a trouver le nom, il a pas de rôle, il sert a rien, c'est notre Didier, mais on l'aime bien :)
 
 ### Rejoindre notre équipe
 
