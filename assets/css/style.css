@@ -199,17 +199,19 @@ footer a {
     padding: 50px;
 }
 
-.about-article {
-    margin: 25px 0 0 50px;
-}
-
 .about-main h2 {
     margin-top: 25px;
 }
 
-.about-article h3 {
+.about-article1, .about-article2, .about-article3 {
+    margin: 25px 0 0 50px;
+}
+
+.about-article1 h3 {
     margin-bottom: 15px;
 }
+
+/* ID */
 
 #post1 {
     grid-area: b1;
