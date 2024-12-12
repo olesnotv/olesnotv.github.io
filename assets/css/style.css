@@ -91,12 +91,6 @@ footer a {
     width: 90%;
     margin: 100px 16.2vw;
     padding: 25px auto;
-    display: grid;
-    grid-template-columns: repeat(3, 25%);
-    grid-template-rows: 1fr;
-    place-items: center;
-    grid-template-areas:
-    "b1 b2 b3";
 }
 
 .blog-index article {
@@ -115,6 +109,11 @@ footer a {
 
 .blog-index-grid1, .blog-index-grid2, .blog-index-grid3 {
     display: grid;
+    grid-template-columns: repeat(3, 25%);
+    grid-template-rows: 1fr;
+    place-items: center;
+    grid-template-areas:
+    "b1 b2 b3";
 }
 
 .index-about {
@@ -173,6 +172,18 @@ footer a {
     font-size: 1.5rem;
 }
 
+/* ID */
+
+#post1, #post4, #post7 {
+    grid-area: b1;
+}
+#post2, #post5, #post8 {
+    grid-area: b2;
+}
+#post3, #post6, #post9 {
+    grid-area: b3;
+}
+
 /* HOVER */
 
 .menu li:hover {
@@ -210,12 +221,6 @@ footer a {
 
 .about-article1 h3 {
     margin-bottom: 15px;
-}
-
-/* ID */
-
-#post1 {
-    grid-area: b1;
 }
 
 /* RESPONSIVE */
