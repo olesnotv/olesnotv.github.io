@@ -64,7 +64,7 @@ footer a {
     height: 100%;
     padding: 10px 0 0 0;
     text-align: center;
-    transition: 0.4s;
+    transition: 0.2s;
 }
 .menu a, .index-about a {
     color: black;
@@ -93,17 +93,14 @@ footer a {
     padding: 25px auto;
     display: grid;
     grid-template-columns: repeat(3, 25%);
-    grid-template-rows: repeat(3, 25%);
+    grid-template-rows: 1fr;
     place-items: center;
     grid-template-areas:
-    "b1 b2 b3"
-    "b4 b5 b6"
-    "b7 b8 b9";
+    "b1 b2 b3";
 }
 
 .blog-index article {
     margin: 10px;
-    display: grid;
     background: rgba(0, 0, 0, 0.125);
     width: 400px;
     height: 400px;
@@ -114,6 +111,10 @@ footer a {
     height: 50px;
     width: 250px;
     padding-top: 15px;
+}
+
+.blog-index-grid1, .blog-index-grid2, .blog-index-grid3 {
+    display: grid;
 }
 
 .index-about {
