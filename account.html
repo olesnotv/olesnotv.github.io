@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="icon" type="image/vnd.icon" href="./assets/img/logo.ico">
-        
+        <?php include('main.php'); ?>        
     </head>
     <body>
         <header>
@@ -26,7 +26,18 @@
         </header>
 
         <main>
-            <br>
+            <div class="welcome">
+                <h2>Bonjour <span id="welcome-account"><?php echo $name;?></span></h2>
+            </div>
+
+            <div class="last-search">
+                <h3>Vos dernières recherches :</h3>
+                <div class="last-search-grid">
+                    <article id="last-post1"></article>
+                    <article id="last-post2"></article>
+                    <article id="last-post3"></article>
+                </div>
+            </div>
         </main>
 
         <footer>
