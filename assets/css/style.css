@@ -24,7 +24,13 @@ footer {
 
 h1 {
     font-family: Raleway;
+    font-size: 3rem;
     padding: 15px;
+}
+
+h2 {
+    font-family: Raleway;
+    font-size: 2rem;
 }
 
 a {
@@ -75,75 +81,6 @@ footer a {
     color: black;
 }
 
-.welcome {
-    margin: 50px;
-}
-
-.welcome h2 {
-    font-size: 2rem;
-}
-.last-search {
-    margin: 50px;
-}
-
-.last-search {
-    font-size: 1.5rem;
-}
-
-.last-search-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 25%);
-    grid-template-rows: 1fr;
-    grid-template-areas:
-    "b1 b2 b3";
-}
-
-.last-search-grid article {
-    width: 400px;
-    height: 400px;
-    margin: 10px;
-    background: black;
-    display: grid;
-}
-
-.mention-legale {
-    text-align: center;
-    margin-bottom: 10vh;
-}
-
-.mention-legale h1 {
-    margin: 10vh 0;
-    font-size: 4rem;
-}
-
-.mention-legale p, .mention-legale ul {
-    font-size: 1.5rem;
-}
-
-.e404 {
-    margin-left: 15%;
-    margin-top: 15%;
-}
-
-.e404 h1 {
-    font-size: 10rem;
-}
-
-.e404 h2 {
-    font-size: 2.5rem;
-}
-
-/* ID */
-
-#post1, #post4, #post7, #last-post1 {
-    grid-area: b1;
-}
-#post2, #post5, #post8, #last-post2 {
-    grid-area: b2;
-}
-#post3, #post6, #post9, #last-post3 {
-    grid-area: b3;
-}
-#welcome-account {
-    color: rgba(0, 0, 0, 0.5);
+.main {
+    margin: 5px 5vw;
 }
